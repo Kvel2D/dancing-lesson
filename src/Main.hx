@@ -255,7 +255,7 @@ function update() {
         trace_mode = !trace_mode;
     }
 
-    if (Mouse.rightclick() || Mouse.leftclick()) {
+    if (Mouse.rightclick()) {
         // Spawn new group on click
         var spawn_x = Math.round(Mouse.x / SCALE);
         var spawn_y = Math.round(Mouse.y / SCALE);
